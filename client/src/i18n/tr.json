@@ -1,0 +1,308 @@
+{
+  "navbar": {
+    "home": "Ana Sayfa",
+    "recipes": "Tarifler",
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "welcome": "Hoşgeldiniz",
+    "profile": "Profil",
+    "logout": "Çıkış Yap",
+    "register": "Kayıt Ol",
+    "login": "Giriş Yap",
+    "english": "İngilizce",
+    "turkish": "Türkçe",
+    "account-setup": "Hesap Ayarları"
+  },
+  "footer": {
+    "logo_alt": "YummyFit Logosu",
+    "brand_name": "YummyFit",
+    "description": "Sağlıklı yaşam ve lezzetli beslenme yolculuğunda akıllı yoldaşınız. YummyFit ile iyi beslenmek artık bir zevk!",
+    "copyright": "© 2025 YummyFit. Tüm içerikler telif hakkı ile korunmaktadır.",
+    "website": "www.yummyfit.com",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook"
+  },
+  "home": {
+    "Fewer Calories": "Daha Az Kalori",
+    "And More": "Ve Daha Fazlası",
+    "Benefit": "Fayda",
+    "Your smart companion on the journey": "Yolculuğunuzda akıllı yardımcınız",
+    "to healthy living and delicious nutrition.": "sağlıklı yaşam ve lezzetli beslenme için.",
+    "At YummyFit, we believe that eating well shouldn’t be a challenge!": "YummyFit'te iyi beslenmenin bir zorluk olmaması gerektiğine inanıyoruz!",
+    "it should be a pleasure.": "bu bir keyif olmalı.",
+    "That’s why we’ve created a platform that brings together smart technology, expert-backed nutrition advice, and thousands of healthy, mouth-watering recipes, all in one place.": "Bu yüzden akıllı teknolojiyi, uzman destekli beslenme tavsiyelerini ve binlerce sağlıklı, iştah açıcı tarifi tek bir platformda bir araya getirdik.",
+    "Get Started": "Başla",
+    "Learn More": "Daha Fazla Bilgi",
+    "Browse By Food Type": "Yiyecek Türüne Göre Ara",
+    "The newest Recipes": "En Yeni Tarifler",
+    "If you are looking for a specific type of food, you can browse by food type.": "Belirli bir yiyecek türü arıyorsanız, yiyecek türüne göre gezinebilirsiniz.",
+    "We have a wide variety of food types to choose from.": "Seçebileceğiniz çok çeşitli yiyecek türlerimiz var.",
+    "Discover the latest and greatest recipes to tantalize your taste buds.": "Damak tadınızı şenlendirecek en yeni ve en iyi tarifleri keşfedin.",
+    "Complete Your Profile": "Profilinizi Tamamlayın",
+    "To get the best experience, please complete your account setup.": "En iyi deneyimi yaşamak için lütfen hesap ayarlarınızı tamamlayın.",
+    "Go to Account Setup": "Hesap Ayarlarına Git",
+    "Close": "Kapat"
+  },
+  "recipe": {
+    "title_food": "Sizin için mükemmel yemek tarifini bulun",
+    "cook_time_short": "dk",
+    "cook_time_full": "Pişirme süresi",
+    "calories_short": "kal",
+    "calories_full": "Kalori",
+    "carbs_short": "g",
+    "carbs_full": "Net Karbonhidrat",
+    "protein_short": "g",
+    "protein_full": "Protein",
+    "fat_short": "g",
+    "fat_full": "Yağ",
+    "loading": "Yükleniyor..."
+  },
+  "about": {
+    "brand": "Yummy Fit",
+    "slogan_line1": "gelecekte",
+    "slogan_line2": "yaşamak için",
+    "description": "YummyFit olarak, sağlıklı beslenmenin kolay ve keyifli olması gerektiğine inanıyoruz. Bu nedenle akıllı teknolojiyi binlerce lezzetli ve besleyici tarifle bir araya getiren bir platform oluşturduk — hepsi tek bir yerde, parmaklarınızın ucunda.",
+    "offer_title": "Neler Sunuyoruz",
+    "offer1": {
+      "title": "Kişiselleştirilmiş Yemek Planlama:",
+      "desc": " Sağlık hedeflerinize, diyet tercihlerine, alerjilere ve fitness seviyenize göre özel hazırlanmış yemek planları."
+    },
+    "offer2": {
+      "title": "Akıllı Tarif Arama:",
+      "desc": " Elinizdeki malzemeleri kullanarak sağlıklı tarifleri keşfedin."
+    },
+    "offer3": {
+      "title": "Beslenme Takibi:",
+      "desc": " Kalori, makro besinler ve günlük hedeflerinizi kolay arayüzümüz ile takip edin."
+    },
+    "register_button": "Hemen Kayıt Ol"
+  },
+  "contact": {
+    "title": "Yolculuğunuz hakkında sorularınız mı var? Bizimle iletişime geçin!",
+    "name": "İsim",
+    "email": "E-posta",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "success": "Bizimle iletişime geçtiğiniz için teşekkürler! En kısa sürede size geri döneceğiz.",
+    "error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "footer": "Diyet yolculuğunuzla ilgili yardıma mı ihtiyacınız var? Sağlıklı tarifler ya da ilerlemenizi takip etmek hakkında daha fazla mı öğrenmek istiyorsunuz? Sorularınızı, önerilerinizi ya da geri bildirimlerinizi bize gönderin. Sizden haber almak için sabırsızlanıyoruz!",
+    "cta": "Sağlıklı yaşamınıza bugün başlayın — hemen kayıt olun!"
+  },
+  "profile": {
+    "title": "Profil",
+    "view_favorites": "Favorileri Görüntüle",
+    "go_home": "Ana Sayfaya Dön",
+    "edit_profile": "Profili Düzenle",
+    "logout": "Çıkış Yap",
+    "admin_panel": "Yönetici Paneline Git",
+    "profile_details": "Profil Detayları",
+    "full_name": "Tam Ad",
+    "email": "E-posta",
+    "age": "Yaş",
+    "gender": "Cinsiyet",
+    "weight": "Kilo",
+    "height": "Boy",
+    "target_weight": "Hedef Kilo",
+    "target_weight_change": "Hedef Kilo Değişimi",
+    "daily_calories": "Günlük Kalori",
+    "activity_level": "Aktivite Seviyesi",
+    "food_preferences": "Yemek Tercihleri",
+    "allergies": "Alerjiler",
+    "cuisine_preferences": "Mutfak Tercihleri",
+    "diseases": "Hastalıklar",
+    "your_favorites": "Favorileriniz",
+    "remove": "Kaldır",
+    "close": "Kapat",
+    "not_available": "Mevcut Değil",
+    "role": "Rol",
+    "gender_options": {
+      "male": "Erkek",
+      "female": "Kadın",
+      "other": "Diğer"
+    },
+    "activity_levels": {
+      "sedentary": "Hareketsiz",
+      "light": "Hafif",
+      "moderate": "Orta",
+      "active": "Aktif",
+      "very_active": "Çok Aktif"
+    },
+    "kg": "kg",
+    "cm": "cm",
+    "kcal": "kcal",
+    "week": "Hafta"
+  },
+  "meal_plan": {
+    "title": "Yemek Planı",
+    "generate_plan": "Yemek Planı Oluştur",
+    "breakfast": "Kahvaltı",
+    "lunch": "Öğle Yemeği",
+    "dinner": "Akşam Yemeği",
+    "snacks": "Ara Öğünler",
+    "calories": "Kalori",
+    "carbs": "Karbonhidrat",
+    "protein": "Protein",
+    "fat": "Yağ"
+  },
+  "edit_profile": {
+    "title": "Profili Düzenle",
+    "update_message": "Profil bilgilerinizi güncelleyin",
+    "update_success": "Profil başarıyla güncellendi",
+    "update_failed": "Profil güncelleme başarısız",
+    "first_name": "Ad",
+    "last_name": "Soyad",
+    "age": "Yaş",
+    "height": "Boy (cm)",
+    "weight": "Kilo (kg)",
+    "target_weight": "Hedef Kilo (kg)",
+    "daily_calories": "Günlük Kalori (kcal)",
+    "gender": "Cinsiyet",
+    "gender_options": {
+      "male": "Erkek",
+      "female": "Kadın",
+      "other": "Diğer"
+    },
+    "target_weight_change": "Hedef Kilo Değişimi",
+    "weight_change_options": {
+      "500g": "500g",
+      "1kg": "1kg"
+    },
+    "activity_level": "Aktivite Seviyesi",
+    "activity_levels": {
+      "sedentary": "Hareketsiz",
+      "lightly active": "Hafif Aktif",
+      "moderately active": "Orta Derecede Aktif",
+      "very active": "Çok Aktif",
+      "super active": "Aşırı Aktif"
+    },
+    "food_preference": "Yemek Tercihi",
+    "select_preference": "Bir tercih seçin",
+    "food_preference_options": {
+      "vegetarian": "Vejetaryen",
+      "vegan": "Vegan",
+      "paleo": "Paleo",
+      "keto": "Keto",
+      "gluten-free": "Glutensiz"
+    },
+    "allergies": "Alerjiler",
+    "cuisine_preferences": "Mutfak Tercihleri",
+    "diseases": "Hastalıklar",
+    "comma_separated": "virgülle ayrılmış",
+    "new_password": "Yeni Şifre (isteğe bağlı)",
+    "password_placeholder": "Mevcut şifreyi korumak için boş bırakın",
+    "profile_image": "Profil Resmi",
+    "save_changes": "Değişiklikleri Kaydet",
+    "cancel": "İptal"
+  },
+  "search": {
+    "placeholder_title": "Başlığa göre ara...",
+    "reset_show_all": "Hepsi",
+    "all_dish_types": "Tüm Yemek Türleri",
+    "all_cuisines": "Tüm Mutfaklar",
+    "search_button": "Ara",
+    "cuisines": {
+      "italian": "İtalyan",
+      "mexican": "Meksika",
+      "indian": "Hint",
+      "chinese": "Çin",
+      "french": "Fransız",
+      "japanese": "Japon",
+      "african": "Afrika",
+      "american": "Amerikan"
+    }
+  },
+  "account_setup": {
+    "title": "Hesabınızı Oluşturun",
+    "welcome": "Hoş geldiniz",
+    "welcome_message_rest": "! Daha sağlıklı bir yaşam tarzı yolculuğunuzda size yardımcı olmaktan heyecan duyuyoruz.",
+    "get_started": "Hesabınızı oluşturmaya başlayalım!",
+    "personalization_message": "Bu, deneyiminizi kişiselleştirmemize ve size özel yemek önerileri sunmamıza yardımcı olacaktır.",
+    "get_started_button": "Başla",
+    "back_to_home": "Ana Sayfaya Dön"
+  },
+  "brand_name": "YummyFit",
+  "food_preferences": {
+    "title": "Hangi tür beslenme düzenini tercih edersiniz?",
+    "excludes": "Hariç tutulanlar",
+    "back": "Geri",
+    "next": "İleri",
+    "update_error": "Kullanıcı verileri güncellenirken bir hata oluştu.",
+    "diets": {
+      "anything": {
+        "label": "Hepsi",
+        "excludes": "Hiçbir şey hariç değil"
+      },
+      "vegetarian": {
+        "label": "Vejetaryen",
+        "excludes": "Et, kümes hayvanları, balık, kabuklu deniz ürünleri"
+      },
+      "vegan": {
+        "label": "Vegan",
+        "excludes": "Tüm hayvansal ürünler (et, balık, süt ürünleri, yumurta, bal)"
+      },
+      "paleo": {
+        "label": "Paleo",
+        "excludes": "Süt ürünleri, tahıllar, baklagiller, rafine nişastalar, soya"
+      },
+      "keto": {
+        "label": "Keto",
+        "excludes": "Yüksek karbonhidratlı tahıllar, şekerler, nişastalar, çoğu meyve"
+      },
+      "gluten_free": {
+        "label": "Glutensiz",
+        "excludes": "Gluten içeren tahıllar (buğday, arpa, çavdar, kılçıksız buğday)"
+      }
+    }
+  },
+  "food_avoid": {
+    "allergies_question": "Herhangi bir gıda alerjiniz veya intoleransınız var mı?",
+    "medical_conditions_question": "Herhangi bir tıbbi durumunuz veya hastalığınız var mı?",
+    "cuisine_preference_question": "Belirli mutfak tercihiniz var mı?",
+    "back": "Geri",
+    "next": "İleri",
+    "update_error": "Tercihleriniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin.",
+    "allergies": {
+      "peanuts": "Yer Fıstığı",
+      "dairy": "Süt Ürünleri",
+      "soy": "Soya",
+      "eggs": "Yumurta",
+      "shellfish": "Kabuklu Deniz Ürünleri",
+      "fish": "Balık",
+      "tree_nuts": "Ağaç Kuruyemişleri"
+    },
+    "diseases": {
+      "diabetes": "Diyabet",
+      "kidney_disease": "Böbrek Hastalığı",
+      "liver_disease": "Karaciğer Hastalığı",
+      "high_cholesterol": "Yüksek Kolesterol",
+      "high_blood_pressure": "Yüksek Tansiyon",
+      "hypothyroidism": "Hipotiroidi",
+      "hyperthyroidism": "Hipertiroidi"
+    },
+    "cuisine_preferences": {
+      "italian": "İtalyan",
+      "chinese": "Çin",
+      "indian": "Hint",
+      "mexican": "Meksika",
+      "japanese": "Japon",
+      "french": "Fransız",
+      "greek": "Yunan",
+      "thai": "Tayland",
+      "spanish": "İspanyol",
+      "korean": "Kore",
+      "mediterranean": "Akdeniz",
+      "american": "Amerikan",
+      "vietnamese": "Vietnam",
+      "middle_eastern": "Orta Doğu"
+    }
+  },
+  "user_info": {
+    "title": "Kendinizden bahsedin",
+    "description": "Bu bilgiler, günlük beslenme gereksinimlerinizi tahmin etmemize yardımcı olacaktır.",
+    "lets_go": "Haydi Başlayalım!",
+    "update_error": "Kullanıcı verileriniz güncellenirken bir hata oluştu. Lütfen tekrar deneyin."
+  }
+}
