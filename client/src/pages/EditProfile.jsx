@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 function EditProfile() {
   const { t } = useTranslation();
-  const { user, setUser, setSessionCheckNeeded, handleLogout } =
+  const { user, setUser, setSessionCheckNeeded, handleLogout,checkSession} =
     useContext(AuthContext);
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -30,7 +30,7 @@ function EditProfile() {
     image: null,
   });
   const [success, setSuccess] = useState(false);
-
+console.log(user);
   useEffect(() => {
     if (user) {
       setFormData((prev) => ({
@@ -75,21 +75,15 @@ function EditProfile() {
         withCredentials: true,
         headers: { "Content-Type": "multipart/form-data" },
       });
-      setUser(res.data);
-      console.log("User updated:", res.data);
-      setSessionCheckNeeded(true);
+      setUser(res.data.user);
       setSuccess("Profile updated successfully");
-      // alert(t("edit_profile.update_success"));
-
-      // navigate("/profile");
 
       setTimeout(() => {
-        handleLogout();
-      }, 2000);
+        navigate("/profile");
+      }, 1700);
     } catch (err) {
       console.error("Update failed:", err);
       setSuccess("Profile update failed");
-      // alert(t("edit_profile.update_failed"));
     }
   };
 
@@ -103,7 +97,7 @@ function EditProfile() {
 
   return (
     <div className="min-h-screen bg-white flex justify-center items-center rounded-none">
-      <div className="card w-full h-[100vh] shadow-2xl overflow-hidden">
+      <div className="card w-full shadow-2xl overflow-hidden">
         <div className="flex flex-col">
           <div className="bg-[#255140] text-white flex flex-col justify-center items-center p-8 rounded-none">
             <div className="avatar">

@@ -13,7 +13,6 @@ function AuthContextProvider({ children }) {
   const [successLoggedIn, setSuccessLoggedIn] = useState(false);
   const [successRegistered, setSuccessRegistered] = useState(false);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [sessionCheckNeeded, setSessionCheckNeeded] = useState(true);
 
   const handleClosePopup = () => {
     setIsPopupOpen(false);
@@ -38,7 +37,6 @@ function AuthContextProvider({ children }) {
         password: user.password,
         image: user.image,
       });
-      setUser(res.data.user);
       setError(null);
       navigate("/login");
     } catch (error) {
@@ -85,26 +83,24 @@ function AuthContextProvider({ children }) {
 
 useEffect(() => {
   const checkSession = async () => {
-    try {
-      const res = await axios.get(`${ORIGIN_URL}/users/check-session`, {
-        withCredentials: true,
-      });
-
-      if (res.data.authenticated && res.data.user) {
-        setUser(res.data.user);
-      } else {
+      try {
+        const res = await axios.get(`${ORIGIN_URL}/users/check-session`, {
+          withCredentials: true,
+        });
+        if (res.data.authenticated) {
+          setUser(res.data.user);
+        } else {
+          setUser(null);
+        }
+        setSessionLoading(false);
+      } catch (error) {
+        console.error("Session check error:", error);
         setUser(null);
+        setSessionLoading(false);
       }
-      setSessionLoading(false);
-    } catch (error) {
-      console.error("Session check error:", error);
-      setUser(null);
-      setSessionLoading(false);
-    }
-  };
-
-  if (sessionCheckNeeded) checkSession();
-}, [sessionCheckNeeded]);
+    };
+  checkSession();
+}, []);
 
   return (
     <div>
@@ -127,7 +123,6 @@ useEffect(() => {
           handleClosePopup,
           isPopupOpen,
           setIsPopupOpen,
-          setSessionCheckNeeded
         }}
       >
         {children}

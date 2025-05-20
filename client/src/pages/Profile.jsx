@@ -13,7 +13,6 @@ function Profile() {
   const { favorites, removeFavorite } = useContext(FoodContext);
   const [showFavorites, setShowFavorites] = useState(false);
   const { user, handleLogout, sessionLoading } = useContext(AuthContext);
-  console.log("user", user);
   const navigate = useNavigate();
 
   const {
@@ -157,7 +156,7 @@ function Profile() {
               <ProfileDetail label="Activity Level" value={activity_level} />
               <ProfileDetail
                 label={t("profile.food_preferences")}
-                value={food_preferences.length == 0 ? `-` : food_preferences?.join(", ")}
+                value={food_preferences?.length == 0 ? `-` : food_preferences?.join(", ")}
               />
               <ProfileDetail
                 label={t("profile.allergies")}

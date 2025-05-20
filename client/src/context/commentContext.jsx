@@ -10,8 +10,6 @@ function CommentContextProvider({ children, recipeId }) {
   const [comments, setComments] = useState([]);
   const [error, setError] = useState(null);
 
-  console.log("comments", comments);
-
   const fetchComments = async () => {
     try {
       const res = await axios.get(`${ORIGIN_URL}/comments/recipe/${recipeId}`, {
@@ -25,7 +23,6 @@ function CommentContextProvider({ children, recipeId }) {
   };
 
   const addComment = async (newComment) => {
-    console.log("newComment", newComment);
     try {
       const res = await axios.post(
         `${ORIGIN_URL}/comments/recipe/${recipeId}`,
@@ -35,7 +32,6 @@ function CommentContextProvider({ children, recipeId }) {
         }
       );
       setComments((prevComments) => [res.data, ...prevComments]);
-      console.log("res.data", res.data);
       setError(null);
     } catch (error) {
       setError("You have already commented on this recipe!");

@@ -50,14 +50,12 @@ function FoodPreferences() {
   ];
 
   const [selectedDiet, setSelectedDiet] = useState("");
-  const { user, navigate, setError, setUser, setSessionCheckNeeded } =
-    useContext(AuthContext);
-  const userId = user?.id;
+  const { user, navigate, setError, setUser} = useContext(AuthContext);
 
   const handleNext = async () => {
     try {
       const response = await axios.put(
-        `${ORIGIN_URL}/users/${userId}`,
+        `${ORIGIN_URL}/users/${user.id}`,
         {
           food_preferences: selectedDiet,
         },
@@ -65,6 +63,7 @@ function FoodPreferences() {
           withCredentials: true,
         }
       );
+      setUser(response.data.user);
       navigate("/account-setup/food-avoid");
     } catch (error) {
       setError(

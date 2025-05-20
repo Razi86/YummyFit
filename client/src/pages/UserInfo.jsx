@@ -1,11 +1,10 @@
 import axios, { all } from "axios";
 import { ORIGIN_URL } from "../config";
 import { AuthContext } from "../context/authContext";
-import { useState,useContext, use } from "react";
+import { useState,useContext } from "react";
 
 function UserInfo() {
-  const { user,navigate,setError, setUser,setSessionCheckNeeded, handleLogout } = useContext(AuthContext);
-  const userId = user?.id;
+  const { user,navigate,setError, setUser} = useContext(AuthContext);
   const [userInfo,setUserInfo] = useState({});
   const [gender, setGender] = useState("male");
 
@@ -20,7 +19,7 @@ function UserInfo() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.put(`${ORIGIN_URL}/users/${userId}`, {
+      const response = await axios.put(`${ORIGIN_URL}/users/${user.id}`, {
         age: userInfo.age,
         weight: userInfo.weight,
         height: userInfo.height,
@@ -31,9 +30,8 @@ function UserInfo() {
       }, {
         withCredentials: true,
       });
-      setUser(response.data)
-      handleLogout();
-      // navigate("/");
+      setUser(response.data.user);
+      navigate("/profile");
     } catch (error) {
       setError(error.response?.data?.message || "An error occurred while updating the user data.");
     }

@@ -7,8 +7,7 @@ function FoodAvoid() {
   const [allergies, setAllergies] = useState([]);
   const [diseases, setDiseases] = useState([]);
   const [cuisine, setCuisine] = useState([]);
-  const { user,navigate,setError,setUser,setSessionCheckNeeded } = useContext(AuthContext);
-  const userId = user?.id;
+  const { user,navigate,setError,setUser} = useContext(AuthContext);
   const [activeBtn, setActiveBtn] = useState([]);
   
   const handleSelectAllergy = (allergy) => {
@@ -43,14 +42,14 @@ function FoodAvoid() {
 
   const handleClickNext = async () => {
     try {
-      const response = await axios.put(`${ORIGIN_URL}/users/${userId}`, {
+      const response = await axios.put(`${ORIGIN_URL}/users/${user.id}`, {
         allergies: allergies,
         disease: diseases,
         cuisine_preferences: cuisine,
       }, {
         withCredentials: true,
       });
-      
+      setUser(response.data.user);
       navigate("/account-setup/user-info");
     } catch (error) {
       setError(error.response?.data?.message || "An error occurred while updating the user data.");
