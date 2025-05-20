@@ -1,0 +1,323 @@
+{
+  "navbar": {
+    "home": "首页",
+    "recipes": "食谱",
+    "about": "关于",
+    "contact": "联系",
+    "welcome": "欢迎",
+    "profile": "个人资料",
+    "logout": "退出",
+    "register": "注册",
+    "login": "登录",
+    "english": "英语",
+    "turkish": "土耳其语",
+    "account-setup": "账户设置"
+  },
+  "footer": {
+    "logo_alt": "YummyFit 标志",
+    "brand_name": "YummyFit",
+    "description": "您健康生活和美味营养之旅的智能伴侣。通过 YummyFit 健康饮食现在是一种享受！",
+    "copyright": "© 2025 YummyFit。所有内容受版权保护。",
+    "website": "www.yummyfit.com",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook"
+  },
+  "home": {
+    "Fewer Calories": "更少卡路里",
+    "And More": "更多",
+    "Benefit": "益处",
+    "Your smart companion on the journey": "您旅途中的智能伴侣",
+    "to healthy living and delicious nutrition.": "走向健康生活和美味营养。",
+    "At YummyFit, we believe that eating well shouldn’t be a challenge!": "在 YummyFit，我们相信健康饮食不应该是一种挑战！",
+    "it should be a pleasure.": "它应该是一种享受。",
+    "That’s why we’ve created a platform that brings together smart technology, expert-backed nutrition advice, and thousands of healthy, mouth-watering recipes, all in one place.": "这就是为什么我们创建了一个平台，将智能技术、专家支持的营养建议和数千种健康、令人垂涎的食谱汇集在一起，所有这些都在一个地方。",
+    "Get Started": "开始",
+    "Learn More": "了解更多",
+    "Browse By Food Type": "按食物类型浏览",
+    "The newest Recipes": "最新食谱",
+    "If you are looking for a specific type of food, you can browse by food type.": "如果您正在寻找特定类型的食物，可以按食物类型浏览。",
+    "We have a wide variety of food types to choose from.": "我们有各种各样的食物类型可供选择。",
+    "Discover the latest and greatest recipes to tantalize your taste buds.": "发现最新、最棒的食谱，挑逗您的味蕾。",
+    "Complete Your Profile": "完成您的个人资料",
+    "To get the best experience, please complete your account setup.": "为了获得最佳体验，请完成您的账户设置。",
+    "Go to Account Setup": "前往账户设置",
+    "Close": "关闭"
+  },
+  "recipe": {
+    "title_food": "找到适合您的完美食谱",
+    "cook_time_short": "分钟",
+    "cook_time_full": "烹饪时间",
+    "calories_short": "卡",
+    "calories_full": "卡路里",
+    "carbs_short": "克",
+    "carbs_full": "净碳水化合物",
+    "protein_short": "克",
+    "protein_full": "蛋白质",
+    "fat_short": "克",
+    "fat_full": "脂肪",
+    "loading": "加载中..."
+  },
+  "about": {
+    "brand": "YummyFit",
+    "slogan_line1": "生活在",
+    "slogan_line2": "未来",
+    "description": "在 YummyFit，我们相信健康饮食应该简单愉快。这就是为什么我们建立了一个平台，将智能技术与数千种美味、营养的食谱相结合——所有这些都方便地集中在一个地方。",
+    "offer_title": "我们提供什么",
+    "offer1": {
+      "title": "个性化膳食计划:",
+      "desc": " 根据您的健康目标、饮食偏好、过敏情况和健身水平量身定制的膳食计划。"
+    },
+    "offer2": {
+      "title": "智能食谱搜索:",
+      "desc": " 使用您已有的食材发现健康食谱。"
+    },
+    "offer3": {
+      "title": "营养追踪:",
+      "desc": " 使用我们易于使用的仪表板跟踪卡路里、宏量营养素和每日目标。"
+    },
+    "register_button": "立即注册"
+  },
+  "contact": {
+    "title": "对您的旅程有疑问吗？请联系我们！",
+    "name": "姓名",
+    "email": "电子邮件",
+    "subject": "主题",
+    "message": "消息",
+    "send": "发送消息",
+    "success": "感谢您的联系！我们将尽快回复您。",
+    "error": "出现问题。请稍后再试。",
+    "footer": "您的饮食旅程需要帮助吗？想了解更多关于健康食谱或跟踪您的进度？请将您的问题、建议或反馈发送给我们。我们很高兴收到您的来信！",
+    "cta": "立即开始您的健康生活方式——立即注册！"
+  },
+  "profile": {
+    "title": "个人资料",
+    "view_favorites": "查看收藏夹",
+    "go_home": "返回首页",
+    "edit_profile": "编辑个人资料",
+    "logout": "退出",
+    "admin_panel": "前往管理面板",
+    "profile_details": "个人资料详情",
+    "full_name": "全名",
+    "email": "电子邮件",
+    "age": "年龄",
+    "gender": "性别",
+    "weight": "体重",
+    "height": "身高",
+    "target_weight": "目标体重",
+    "target_weight_change": "目标体重变化",
+    "daily_calories": "每日卡路里",
+    "activity_level": "活动水平",
+    "food_preferences": "食物偏好",
+    "allergies": "过敏",
+    "cuisine_preferences": "菜系偏好",
+    "diseases": "疾病",
+    "your_favorites": "您的收藏夹",
+    "remove": "删除",
+    "close": "关闭",
+    "not_available": "不适用",
+    "role": "角色",
+    "gender_options": {
+      "male": "男性",
+      "female": "女性",
+      "other": "其他"
+    },
+    "activity_levels": {
+      "sedentary": "久坐",
+      "light": "轻度活跃",
+      "moderate": "中度活跃",
+      "active": "活跃",
+      "very_active": "非常活跃"
+    },
+    "kg": "公斤",
+    "cm": "厘米",
+    "kcal": "千卡",
+    "week": "周",
+    "years": "年"
+  },
+  "meal_plan": {
+    "title": "膳食计划",
+    "generate_plan": "生成膳食计划",
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "dinner": "晚餐",
+    "snacks": "小吃",
+    "calories": "卡路里",
+    "carbs": "碳水化合物",
+    "protein": "蛋白质",
+    "fat": "脂肪"
+  },
+  "edit_profile": {
+    "title": "编辑个人资料",
+    "update_message": "更新您的个人资料信息",
+    "update_success": "个人资料更新成功",
+    "update_failed": "个人资料更新失败",
+    "first_name": "名字",
+    "last_name": "姓氏",
+    "age": "年龄",
+    "height": "身高 (厘米)",
+    "weight": "体重 (公斤)",
+    "target_weight": "目标体重 (公斤)",
+    "daily_calories": "每日卡路里 (千卡)",
+    "gender": "性别",
+    "gender_options": {
+      "male": "男性",
+      "female": "女性",
+      "other": "其他"
+    },
+    "target_weight_change": "目标体重变化",
+    "weight_change_options": {
+      "500g_week": "0.5 公斤/周",
+      "1kg_week": "1 公斤/周"
+    },
+    "activity_level": "活动水平",
+    "activity_levels": {
+      "sedentary": "久坐",
+      "lightly active": "轻度活跃",
+      "moderately active": "中度活跃",
+      "very active": "非常活跃",
+      "super active": "超级活跃"
+    },
+    "food_preference": "食物偏好",
+    "select_preference": "选择偏好",
+    "food_preference_options": {
+      "vegetarian": "素食",
+      "vegan": "纯素",
+      "paleo": "原始人饮食",
+      "keto": "生酮",
+      "gluten-free": "无麸质"
+    },
+    "allergies": "过敏",
+    "cuisine_preferences": "菜系偏好",
+    "diseases": "疾病",
+    "comma_separated": "逗号分隔",
+    "new_password": "新密码 (可选)",
+    "password_placeholder": "留空以保留当前密码",
+    "profile_image": "个人资料图片",
+    "save_changes": "保存更改",
+    "cancel": "取消"
+  },
+  "search": {
+    "placeholder_title": "按标题搜索...",
+    "reset_show_all": "全部",
+    "all_dish_types": "所有菜肴类型",
+    "all_cuisines": "所有菜系",
+    "search_button": "搜索",
+    "cuisines": {
+      "italian": "意大利",
+      "mexican": "墨西哥",
+      "indian": "印度",
+      "chinese": "中国",
+      "french": "法国",
+      "japanese": "日本",
+      "african": "非洲",
+      "american": "美国"
+    }
+  },
+  "account_setup": {
+    "title": "设置您的账户",
+    "welcome": "欢迎来到",
+    "welcome_message_rest": "！我们很高兴能帮助您开启更健康的生活方式之旅。",
+    "get_started": "让我们开始设置您的账户吧！",
+    "personalization_message": "这将帮助我们量身定制您的体验，并为您提供个性化的食物推荐。",
+    "get_started_button": "开始",
+    "back_to_home": "返回首页"
+  },
+  "brand_name": "YummyFit",
+  "food_preferences": {
+    "title": "您更喜欢哪种饮食类型？",
+    "excludes": "不包括",
+    "back": "返回",
+    "next": "下一步",
+    "update_error": "更新用户数据时发生错误。",
+    "diets": {
+      "anything": {
+        "label": "任何",
+        "excludes": "无"
+      },
+      "vegetarian": {
+        "label": "素食",
+        "excludes": "肉类、禽类、鱼类、贝类"
+      },
+      "vegan": {
+        "label": "纯素",
+        "excludes": "所有动物产品（肉、鱼、奶制品、鸡蛋、蜂蜜）"
+      },
+      "paleo": {
+        "label": "原始人饮食",
+        "excludes": "奶制品、谷物、豆类、精制淀粉、大豆"
+      },
+      "keto": {
+        "label": "生酮",
+        "excludes": "高碳水化合物谷物、糖、淀粉、大部分水果"
+      },
+      "gluten_free": {
+        "label": "无麸质",
+        "excludes": "含麸质谷物（小麦、大麦、黑麦、斯佩耳特小麦）"
+      }
+    }
+  },
+  "food_avoid": {
+    "allergies_question": "您有任何食物过敏或不耐受吗？",
+    "medical_conditions_question": "您有任何医疗状况或疾病吗？",
+    "cuisine_preference_question": "您有任何特定的菜系偏好吗？",
+    "back": "返回",
+    "next": "下一步",
+    "update_error": "更新您的偏好时发生错误。请重试。",
+    "allergies": {
+      "peanuts": "花生",
+      "dairy": "奶制品",
+      "soy": "大豆",
+      "eggs": "鸡蛋",
+      "shellfish": "贝类",
+      "fish": "鱼",
+      "tree_nuts": "坚果"
+    },
+    "diseases": {
+      "diabetes": "糖尿病",
+      "kidney_disease": "肾病",
+      "liver_disease": "肝病",
+      "high_cholesterol": "高胆固醇",
+      "high_blood_pressure": "高血压",
+      "hypothyroidism": "甲状腺功能减退",
+      "hyperthyroidism": "甲状腺功能亢进"
+    },
+    "cuisine_preferences": {
+      "italian": "意大利",
+      "chinese": "中国",
+      "indian": "印度",
+      "mexican": "墨西哥",
+      "japanese": "日本",
+      "french": "法国",
+      "greek": "希腊",
+      "thai": "泰国",
+      "spanish": "西班牙",
+      "korean": "韩国",
+      "mediterranean": "地中海",
+      "american": "美国",
+      "vietnamese": "越南",
+      "middle_eastern": "中东"
+    }
+  },
+  "user_info": {
+    "title": "告诉我们关于您自己的信息",
+    "description": "这些信息可以帮助我们估算您每天的营养需求。",
+    "lets_go": "开始吧！",
+    "update_error": "更新您的用户数据时发生错误。请重试。"
+  },
+  "common": {
+    "save_changes": "保存更改",
+    "cancel": "取消",
+    "update": "更新",
+    "delete": "删除",
+    "add": "添加",
+    "back": "返回",
+    "next": "下一步",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "loading": "加载中...",
+    "required_field": "此字段为必填项。"
+  }
+}

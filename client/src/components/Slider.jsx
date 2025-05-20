@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function YummySlider({foodList}) {
   // Slider settings
     var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -20,7 +20,7 @@ function YummySlider({foodList}) {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
       {
@@ -42,10 +42,10 @@ function YummySlider({foodList}) {
     };
 
     return (
-      <div className="slider-container w-full mx-auto px-4">
+      <div className="slider-container w-full mx-auto px-0">
         <Slider {...settings}>
           {foodList?.map((food, index) => {
-            const title = food.title; // works with strings or objects
+            const title = food.title; 
   
             return (
               <Link

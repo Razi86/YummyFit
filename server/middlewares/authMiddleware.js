@@ -1,12 +1,13 @@
 import { CustomError } from "../utils/errorHandler.js";
 import jwt from "jsonwebtoken";
 import { config } from "dotenv";
+import Recipe from "../schemas/recipeSchema.js";
 
 config();
 
 export const auth = async (req, res, next) => {
   try {
-    const token = req.cookies.token;
+    const token = req.cookies.token || req.headers.authorization?.split(" ")[1];
     if (!token) {
       return next(new CustomError("Authentication failed", 401));
     }
@@ -28,10 +29,10 @@ export const admin = async (req, res, next) => {
 
 export const preventRecipeOwnerComment = async (req, res, next) => {
   try {
-    const { postId } = req.params;
+    const { recipeId } = req.params;
     const userId = req.user.id;
-    console.log(postId, userId);
-    const post = await Post.findById(postId);
+    console.log(recipeId, userId);
+    const post = await Recipe.findById(recipeId);
 
     if (!post) {
       return next(new CustomError('Post not found', 404));
@@ -48,41 +49,41 @@ export const preventRecipeOwnerComment = async (req, res, next) => {
   }
 };
 
-export const preventMultipleComments = async (req, res, next) => {
-  try {
-    const { postId } = req.params;
-    const userId = req.user.id;
+// export const preventMultipleComments = async (req, res, next) => {
+//   try {
+//     const { postId } = req.params;
+//     const userId = req.user.id;
 
-    const existingReview = await Review.findOne({ post: postId, user: userId });
+//     const existingReview = await Review.findOne({ post: postId, user: userId });
 
-    if (existingReview) {
-      return next(new CustomError('You have already reviewed this post', 403));
-    }
+//     if (existingReview) {
+//       return next(new CustomError('You have already reviewed this post', 403));
+//     }
 
-    next();
-  } catch (error) {
-    console.error('Error in preventMultipleReviews middleware:', error);
-    next(new CustomError('Authorization failed', 500));
-  }
-};
+//     next();
+//   } catch (error) {
+//     console.error('Error in preventMultipleReviews middleware:', error);
+//     next(new CustomError('Authorization failed', 500));
+//   }
+// };
 
-export const commentOwner = async (req, res, next) => {
-  try {
-    const reviewId = req.params.id;
-    const userId = req.user.id;
+// export const commentOwner = async (req, res, next) => {
+//   try {
+//     const reviewId = req.params.id;
+//     const userId = req.user.id;
 
-    const review = await Review.findById(reviewId);
-    if (!review) {
-      return next(new CustomError('Review not found', 404));
-    }
-    if (review.user.toString() !== userId) {
-      return next(
-        new CustomError('Unauthorized: You do not own this review', 403)
-      );
-    }
+//     const review = await Review.findById(reviewId);
+//     if (!review) {
+//       return next(new CustomError('Review not found', 404));
+//     }
+//     if (review.user.toString() !== userId) {
+//       return next(
+//         new CustomError('Unauthorized: You do not own this review', 403)
+//       );
+//     }
 
-    next();
-  } catch (error) {
-    next(new CustomError('Authorization failed', 500));
-  }
-};
+//     next();
+//   } catch (error) {
+//     next(new CustomError('Authorization failed', 500));
+//   }
+// };

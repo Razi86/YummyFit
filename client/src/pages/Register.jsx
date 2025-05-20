@@ -7,25 +7,30 @@ import {
   MdDriveFileRenameOutline,
 } from "react-icons/md";
 import { HiUser } from "react-icons/hi2";
+import { IoReturnUpBackOutline } from "react-icons/io5";
 
 function Register() {
-  const { user,handleRegister, handleChange, navigate } = useContext(AuthContext);
+  const { user, handleRegister, handleChange, navigate } =
+    useContext(AuthContext);
 
   return (
-    <div className="login w-full min-h-[calc(100vh-160px)] flex justify-center items-center gap-30">
+    <div className="login w-full min-h-[100vh] flex justify-center items-center gap-30">
       <div className="left">
         <figure>
           <img src={image} alt="register" className="w-[50rem]" />
         </figure>
       </div>
       <div className="right">
-      <h1 className="text-5xl text-[#9e3db2] font-medium lato-black text-center tracking-[1px] mb-8">
+        <h1 className="text-5xl text-[#9e3db2] font-medium lato-black text-center tracking-[1px] mb-8">
           Yummy<span className="text-[#FE486E]">Fit</span>
         </h1>
         <div className="w-full flex justify-center items-center">
           <div className="card w-full">
             <div className="card-body p-0">
-              <form onSubmit={handleRegister} className="flex flex-col items-center gap-5 mt-5">
+              <form
+                onSubmit={handleRegister}
+                className="flex flex-col items-center gap-5 mt-5"
+              >
                 <div className="username relative">
                   <input
                     type="text"
@@ -99,6 +104,13 @@ function Register() {
               </p>
             </div>
           </div>
+        </div>
+        <div
+          className="go_back flex justify-center items-center gap-2 mt-5 cursor-pointer"
+          onClick={() => navigate("/")}
+        >
+          <IoReturnUpBackOutline className="text-[1.3rem] text-[#FE486E]" />
+          <p className="underline">Go Back Home</p>
         </div>
       </div>
     </div>

@@ -4,13 +4,14 @@ import image from "../assets/images/SignIn-SignUp/SignIn-SignUp.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { MdOutlinePassword } from "react-icons/md";
+import { IoReturnUpBackOutline } from "react-icons/io5";
 
 function Login() {
   const { user, handleLogin, handleChange } = useContext(AuthContext);
   const navigate = useNavigate();
 
   return (
-    <div className="login w-full min-h-[calc(100vh-160px)] flex justify-center items-center gap-30">
+    <div className="login w-full min-h-[100vh] flex justify-center items-center gap-30">
       <div className="left">
         <figure>
           <img src={image} alt="login-register" className="w-[50rem]" />
@@ -63,6 +64,10 @@ function Login() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="go_back flex justify-center items-center gap-2 mt-5 cursor-pointer" onClick={() => navigate("/")}>
+          <IoReturnUpBackOutline  className="text-[1.3rem] text-[#FE486E]"/>
+          <p className="underline">Go Back Home</p>
         </div>
       </div>
     </div>
