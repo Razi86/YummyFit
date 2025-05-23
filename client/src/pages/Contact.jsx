@@ -47,7 +47,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="w-full min-h-[100vh] pt-[140px] flex flex-wrap justify-between items-center p-12">
+    <div className="w-full min-h-[100vh] pt-[130px] flex flex-wrap justify-between items-center p-12">
       <div className="left flex flex-col justify-center items-start flex-1/2 gap-5 pl-[3rem]">
         <h1 className="w-[85%] text-black text-[2.5rem] tracking-[0.2rem] font-medium lato-regular leading-[4rem]">
           {t("contact.title")}
@@ -109,7 +109,7 @@ export default function ContactUs() {
           )}
           <button
             type="submit"
-            className="bg-green-600 text-white text-[1.25rem] tracking-[.1rem] px-4 py-3 rounded hover:bg-green-700 transition"
+            className="yummy-btn text-[1.25rem] tracking-[.1rem] px-4 py-3 transition font-bold"
           >
             {t("contact.send")}
           </button>

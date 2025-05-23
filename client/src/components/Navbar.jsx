@@ -25,8 +25,8 @@ import germanyFlag from "../assets/images/flags/germany.png";
 function Navbar() {
   const { t } = useTranslation();
   const { changeLanguage, language } = useContext(LanguageContext);
-  const { handleLogout, user } = useContext(AuthContext);
-  const isLoggedIn = user && user.email;
+  const { handleLogout, user,successLoggedIn } = useContext(AuthContext);
+  console.log(successLoggedIn);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const languageDropdownRef = useRef(null);
 
@@ -114,7 +114,7 @@ function Navbar() {
 
       <div className="right flex items-center gap-5">
         <div className="welcome">
-          {isLoggedIn ? (
+          {successLoggedIn ? (
             <p className="text-lg font-medium text-[#1A1A1A]">
               {t("navbar.welcome")}, {user.username}🍃
             </p>
@@ -210,7 +210,7 @@ function Navbar() {
             role="button"
             className="btn w-15 h-15 flex justify-center items-center rounded-full bg-gray-100 border border-[#E3F5ED] text-black p-0"
           >
-            {isLoggedIn ? (
+            {successLoggedIn ? (
               <div className="avatar">
                 <div className="w-10 h-10 rounded-full ring ring-[#E3F5ED] ring-offset-4">
                   {user.image && (
@@ -231,7 +231,7 @@ function Navbar() {
             className="dropdown-content w-[25rem] min-h-[100vh] flex flex-col items-center justify-start gap-4 absolute top-[-2.5rem] right-[-2.5rem] bg-[#326C56] text-white p-2 pt-20 mt-1 shadow-sm"
           >
             <div className="welcome">
-              {isLoggedIn ? (
+              {successLoggedIn ? (
                 <div className="flex flex-col items-center justify-center gap-2">
                   <img
                     src={user?.image}
@@ -246,7 +246,7 @@ function Navbar() {
                 <p></p>
               )}
             </div>
-            {isLoggedIn ? (
+            {successLoggedIn ? (
               <>
                 <li className="w-full flex justify-center items-center text-[#326C56] tracking-[1px] relative">
                   <NavLink
@@ -314,11 +314,13 @@ function Navbar() {
                     </button>
                   </NavLink>
                 </li>
-                <NavLink to={"/"}>
+                
                   <figure className="w-full flex justify-center items-center mb-5 absolute bottom-20 left-0 right-0">
-                    <img src={logo} alt="" className="w-[55%]" />
+                    <NavLink to={"/"} className="w-[25%]">
+                      <img src={logo} alt="" className="w-full" />
+                    </NavLink>
                   </figure>
-                </NavLink>
+                
               </>
             ) : (
               <>

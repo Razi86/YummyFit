@@ -7,7 +7,7 @@ import UpdateCommentForm from "./UpdateComments.jsx";
 function Comments() {
   const { comments, fetchComments, error, setError } =
     useContext(CommentContext);
-  const { user, sessionLoading } = useContext(AuthContext);
+  const { user, sessionLoading,successLoggedIn } = useContext(AuthContext);
   const [editingCommentId, setEditingCommentId] = useState(null);
   const [commentsLoading, setCommentsLoading] = useState(true);
 
@@ -17,10 +17,10 @@ function Comments() {
       setCommentsLoading(false);
     };
 
-    if (user) {
+    if (user && successLoggedIn) {
       loadComments();
     }
-  }, [user]);
+  }, [user, successLoggedIn]);
 
   useEffect(() => {
     if (error) {
@@ -41,11 +41,11 @@ function Comments() {
   };
 
   if (sessionLoading || commentsLoading) {
-    return <div>Yükleniyor...</div>;
+    return <div className="pb-8 text-lg">Please login to see the comments!</div>;
   }
 
   const isUserComment = (commentUserId) => {
-    if (!user || !commentUserId) return false;
+    if (!user || !commentUserId || !successLoggedIn) return false;
     const commentId =
       typeof commentUserId === "object" ? commentUserId._id : commentUserId;
     const userId = user._id || user.id;

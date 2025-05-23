@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 
 function Home() {
   const { t } = useTranslation();
-  const { isPopupOpen, handleClosePopup, setIsPopupOpen } =
+  const { isPopupOpen, handleClosePopup, setIsPopupOpen,successLoggedIn} =
     useContext(AuthContext);
   const { food, loading, dishTypeList } = useContext(FoodContext);
   const foodList = Array.isArray(food) ? food.slice(0, 15) : [];
@@ -31,8 +31,7 @@ function Home() {
   return (
     <>
       <main className="pt-[130px]">
-        {/* {loading && <p>Loading...</p>} */}
-        <div className="relative flex flex-row items-start min-h-[600px]">
+        <div className="relative flex justify-between items-start min-h-[600px]">
           <div className="w-[50%] text-right px-9">
             <h1 className="text-6xl lato-black mb-2 mt-15">
               {t("home.Fewer Calories")} <br /> {t("home.And More")}
@@ -95,7 +94,7 @@ function Home() {
         <div className="devider w-[50%] mx-auto h-[1px] bg-[#333d25] mt-5"></div>
       </main>
 
-      {isPopupOpen && (
+      {isPopupOpen && successLoggedIn && (
         <div
           className="popup fixed top-0 left-0 w-full h-full flex justify-center items-center z-50"
           style={{

@@ -95,7 +95,7 @@ function RecipeDetail() {
                 __html: cleanAndLimitHtml(foodItem?.description || ""),
               }}
             />
-            <div className="food-types pt-5">
+            <div className="food-types py-5">
               <ul className="list-none flex flex-wrap gap-3">
                 {foodItem?.food_type.map((type, index) => (
                   <li
