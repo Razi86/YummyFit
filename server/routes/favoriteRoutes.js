@@ -4,8 +4,8 @@ import { auth } from "../middlewares/authMiddleware.js";
 
 const router = Router();
 
-router.get("/", auth, getFavorites); // Get all favorites for the authenticated user
-router.post("/", auth, addFavorite); // Add a recipe to favorites
-router.delete("/:recipeId", auth, removeFavorite); // Remove a recipe from favorites
+router.get("/", auth, getFavorites); 
+router.post("/", auth, addFavorite); 
+router.delete("/:recipeId", auth, removeFavorite);
 
 export default router;

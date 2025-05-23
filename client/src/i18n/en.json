@@ -1,0 +1,331 @@
+{
+  "navbar": {
+    "home": "Home",
+    "recipes": "Recipes",
+    "about": "About",
+    "contact": "Contact",
+    "welcome": "Welcome",
+    "profile": "Profile",
+    "logout": "Logout",
+    "register": "Register",
+    "login": "Login",
+    "english": "English",
+    "turkish": "Turkish",
+    "spanish": "Spanish",
+    "french": "French",
+    "italian": "Italian",
+    "chinese": "Chinese",
+    "german": "German",
+    "account-setup": "Account Setup"
+  },
+  "footer": {
+    "logo_alt": "YummyFit Logo",
+    "brand_name": "YummyFit",
+    "description": "Your smart companion on the journey to healthy living and delicious nutrition. Eating well with YummyFit is now a pleasure!",
+    "copyright": "© 2025 YummyFit. All content is protected by copyright.",
+    "website": "www.yummyfit.com",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook"
+  },
+  "home": {
+    "Fewer Calories": "Fewer Calories",
+    "And More": "And More",
+    "Benefit": "Benefit",
+    "Your smart companion on the journey": "Your smart companion on the journey",
+    "to healthy living and delicious nutrition.": "to healthy living and delicious nutrition.",
+    "At YummyFit, we believe that eating well shouldn’t be a challenge!": "At YummyFit, we believe that eating well shouldn’t be a challenge!",
+    "it should be a pleasure.": "it should be a pleasure.",
+    "That’s why we’ve created a platform that brings together smart technology, expert-backed nutrition advice, and thousands of healthy, mouth-watering recipes, all in one place.": "That’s why we’ve created a platform that brings together smart technology, expert-backed nutrition advice, and thousands of healthy, mouth-watering recipes, all in one place.",
+    "Get Started": "Get Started",
+    "Learn More": "Learn More",
+    "Browse By Food Type": "Browse By Food Type",
+    "The newest Recipes": "The newest Recipes",
+    "If you are looking for a specific type of food, you can browse by food type.": "If you are looking for a specific type of food, you can browse by food type.",
+    "We have a wide variety of food types to choose from.": "We have a wide variety of food types to choose from.",
+    "Discover the latest and greatest recipes to tantalize your taste buds.": "Discover the latest and greatest recipes to tantalize your taste buds.",
+    "Complete Your Profile": "Complete Your Profile",
+    "To get the best experience, please complete your account setup.": "To get the best experience, please complete your account setup.",
+    "Go to Account Setup": "Go to Account Setup",
+    "Close": "Close"
+  },
+  "recipe": {
+    "title_food": "Find the perfect food recipe for you",
+    "cook_time_short": "min",
+    "cook_time_full": "Cooking time",
+    "calories_short": "cals",
+    "calories_full": "Calories",
+    "carbs_short": "g",
+    "carbs_full": "Net Carbs",
+    "protein_short": "g",
+    "protein_full": "Protein",
+    "fat_short": "g",
+    "fat_full": "Fat",
+    "loading": "Loading..."
+  },
+  "about": {
+    "brand": "Yummy Fit",
+    "slogan_line1": "to live in",
+    "slogan_line2": "the future",
+    "description": "At YummyFit, we believe that eating healthy should be easy and enjoyable. That’s why we’ve built a platform that combines smart technology with thousands of delicious, nutritious recipes — all conveniently in one place.",
+    "offer_title": "What We Offer",
+    "offer1": {
+      "title": "Personalized Meal Planning:",
+      "desc": " Tailor-made meal plans based on your health goals, dietary preferences, allergies, and fitness level."
+    },
+    "offer2": {
+      "title": "Smart Recipe Search:",
+      "desc": " Discover healthy recipes using ingredients you already have."
+    },
+    "offer3": {
+      "title": "Nutrition Tracking:",
+      "desc": " Keep track of calories, macronutrients, and daily goals with our easy-to-use dashboard."
+    },
+    "register_button": "Register Now"
+  },
+  "contact": {
+    "title": "Have Questions About Your Journey? Reach Out!",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Thank you for reaching out! We will get back to you soon.",
+    "error": "Something went wrong. Please try again later.",
+    "footer": "Need help with your diet journey? Want to know more about healthy recipes or tracking your progress? Send us your questions, suggestions, or feedback. We're excited to hear from you!",
+    "cta": "Start your healthy lifestyle today — sign up now!"
+  },
+  "profile": {
+    "title": "Profile",
+    "view_favorites": "View Favorites",
+    "go_home": "Go to Home",
+    "edit_profile": "Edit Profile",
+    "logout": "Logout",
+    "admin_panel": "Go to Admin Panel",
+    "profile_details": "Profile Details",
+    "full_name": "Full Name",
+    "email": "Email",
+    "age": "Age",
+    "gender": "Gender",
+    "weight": "Weight",
+    "height": "Height",
+    "target_weight": "Target Weight",
+    "target_weight_change": "Target Weight Change",
+    "daily_calories": "Daily Calories",
+    "activity_level": "Activity Level",
+    "food_preferences": "Food Preferences",
+    "allergies": "Allergies",
+    "cuisine_preferences": "Cuisine Preferences",
+    "diseases": "Diseases",
+    "your_favorites": "Your Favorites",
+    "remove": "Remove",
+    "close": "Close",
+    "not_available": "N/A",
+    "role": "Role",
+    "gender_options": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "activity_levels": {
+      "sedentary": "Sedentary",
+      "light": "Light",
+      "moderate": "Moderate",
+      "active": "Active",
+      "very_active": "Very Active"
+    },
+    "kg": "kg",
+    "cm": "cm",
+    "kcal": "kcal",
+    "week": "Week",
+    "years": "years"
+  },
+  "meal_plan": {
+    "title": "Meal Plan",
+    "generate_plan": "Generate Meal Plan",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "snacks": "Snacks",
+    "calories": "Calories",
+    "carbs": "Carbs",
+    "protein": "Protein",
+    "fat": "Fat"
+  },
+  "edit_profile": {
+    "title": "Edit Profile",
+    "update_message": "Update your profile information",
+    "update_success": "Profile updated successfully",
+    "update_failed": "Profile update failed",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "age": "Age",
+    "height": "Height (cm)",
+    "weight": "Weight (kg)",
+    "target_weight": "Target Weight (kg)",
+    "daily_calories": "Daily Calories (kcal)",
+    "gender": "Gender",
+    "gender_options": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "target_weight_change": "Target Weight Change",
+    "weight_change_options": {
+      "500g_week": "0.5 kg/week",
+      "1kg_week": "1 kg/week"
+    },
+    "activity_level": "Activity Level",
+    "activity_levels": {
+      "sedentary": "Sedentary",
+      "lightly active": "Lightly Active",
+      "moderately active": "Moderately Active",
+      "very active": "Very Active",
+      "super active": "Super Active"
+    },
+    "food_preference": "Food Preference",
+    "select_preference": "Select a preference",
+    "food_preference_options": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "paleo": "Paleo",
+      "keto": "Keto",
+      "gluten-free": "Gluten-Free"
+    },
+    "allergies": "Allergies",
+    "cuisine_preferences": "Cuisine Preferences",
+    "diseases": "Diseases",
+    "comma_separated": "comma-separated",
+    "new_password": "New Password (optional)",
+    "password_placeholder": "Leave blank to keep current password",
+    "profile_image": "Profile Image",
+    "save_changes": "Save Changes",
+    "cancel": "Cancel"
+  },
+  "search": {
+    "placeholder_title": "Search by title...",
+    "reset_show_all": "All",
+    "all_dish_types": "All Dish Types",
+    "all_cuisines": "All Cuisines",
+    "search_button": "Search",
+    "cuisines": {
+      "italian": "Italian",
+      "mexican": "Mexican",
+      "indian": "Indian",
+      "chinese": "Chinese",
+      "french": "French",
+      "japanese": "Japanese",
+      "african": "African",
+      "american": "American"
+    }
+  },
+  "favorite": {
+    "no_favorites": "No favorites"
+  },
+  "account_setup": {
+    "title": "Set up your account",
+    "welcome": "Welcome to",
+    "welcome_message_rest": "! We're excited to help you on your journey to a healthier lifestyle.",
+    "get_started": "Let's get started setting up your account!",
+    "personalization_message": "This will help us tailor your experience and provide you with personalized food recommendations.",
+    "get_started_button": "Get Started",
+    "back_to_home": "Back to Home"
+  },
+  "brand_name": "YummyFit",
+  "food_preferences": {
+    "title": "Which type of diet would you prefer?",
+    "excludes": "Excludes",
+    "back": "Back",
+    "next": "Next",
+    "update_error": "An error occurred while updating the user data.",
+    "diets": {
+      "anything": {
+        "label": "Anything",
+        "excludes": "Nothing"
+      },
+      "vegetarian": {
+        "label": "Vegetarian",
+        "excludes": "Meat, poultry, Fish, Shellfish"
+      },
+      "vegan": {
+        "label": "Vegan",
+        "excludes": "All animal products (meat, fish, dairy, eggs, honey)"
+      },
+      "paleo": {
+        "label": "Paleo",
+        "excludes": "Dairy, Grains, Legumes, Refined starches, Soy"
+      },
+      "keto": {
+        "label": "Keto",
+        "excludes": "High-carb grains, Sugars, Starches, Most fruits"
+      },
+      "gluten_free": {
+        "label": "Gluten-free",
+        "excludes": "Gluten-containing grains (wheat, barley, rye, spelt)"
+      }
+    }
+  },
+  "food_avoid": {
+    "allergies_question": "Do you have any food allergies or intolerances?",
+    "medical_conditions_question": "Do you have any medical conditions or diseases?",
+    "cuisine_preference_question": "Do you prefer any specific cuisine?",
+    "back": "Back",
+    "next": "Next",
+    "update_error": "An error occurred while updating your preferences. Please try again.",
+    "allergies": {
+      "peanuts": "Peanuts",
+      "dairy": "Dairy",
+      "soy": "Soy",
+      "eggs": "Eggs",
+      "shellfish": "Shellfish",
+      "fish": "Fish",
+      "tree_nuts": "Tree Nuts"
+    },
+    "diseases": {
+      "diabetes": "Diabetes",
+      "kidney_disease": "Kidney disease",
+      "liver_disease": "Liver disease",
+      "high_cholesterol": "High cholesterol",
+      "high_blood_pressure": "High blood pressure",
+      "hypothyroidism": "Hypothyroidism",
+      "hyperthyroidism": "Hyperthyroidism"
+    },
+    "cuisine_preferences": {
+      "italian": "Italian",
+      "chinese": "Chinese",
+      "indian": "Indian",
+      "mexican": "Mexican",
+      "japanese": "Japanese",
+      "french": "French",
+      "greek": "Greek",
+      "thai": "Thai",
+      "spanish": "Spanish",
+      "korean": "Korean",
+      "mediterranean": "Mediterranean",
+      "american": "American",
+      "vietnamese": "Vietnamese",
+      "middle_eastern": "Middle Eastern"
+    }
+  },
+  "user_info": {
+    "title": "Tell us about yourself",
+    "description": "This information lets us estimate your nutrition requirements for each day.",
+    "lets_go": "Let's Go!",
+    "update_error": "An error occurred while updating your user data. Please try again."
+  },
+  "common": {
+    "save_changes": "Save Changes",
+    "cancel": "Cancel",
+    "update": "Update",
+    "delete": "Delete",
+    "add": "Add",
+    "back": "Back",
+    "next": "Next",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "loading": "Loading...",
+    "required_field": "This field is required."
+  }
+}

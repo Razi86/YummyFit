@@ -1,11 +1,11 @@
 import { Schema, model } from "mongoose";
-import User  from "./userSchema.js";
-import  Recipe  from "./recipeSchema.js";
+import User from "./userSchema.js";
+import Recipe from "./recipeSchema.js";
 
 const commentSchema = new Schema(
   {
     recipeId: {
-      type: Schema.Types.ObjectId,
+      type: String,
       ref: "Recipe",
       required: true,
     },
@@ -19,7 +19,7 @@ const commentSchema = new Schema(
       required: true,
       trim: true,
     },
-     },
+  },
   { timestamps: true }
 );
 

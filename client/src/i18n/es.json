@@ -1,0 +1,328 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "recipes": "Recetas",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "welcome": "Bienvenido",
+    "profile": "Perfil",
+    "logout": "Cerrar Sesión",
+    "register": "Registrarse",
+    "login": "Iniciar Sesión",
+    "english": "Inglés",
+    "turkish": "Turco",
+    "spanish": "Español",
+    "french": "Francés",
+    "italian": "Italiano",
+    "chinese": "Chino",
+    "german": "Alemán",
+    "account-setup": "Configuración de Cuenta"
+  },
+  "footer": {
+    "logo_alt": "Logo YummyFit",
+    "brand_name": "YummyFit",
+    "description": "Tu compañero inteligente en el viaje hacia una vida sana y una nutrición deliciosa. ¡Comer bien con YummyFit es ahora un placer!",
+    "copyright": "© 2025 YummyFit. Todo el contenido está protegido por derechos de autor.",
+    "website": "www.yummyfit.com",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook"
+  },
+  "home": {
+    "Fewer Calories": "Menos Calorías",
+    "And More": "Y Más",
+    "Benefit": "Beneficio",
+    "Your smart companion on the journey": "Tu compañero inteligente en el viaje",
+    "to healthy living and delicious nutrition.": "hacia una vida sana y una nutrición deliciosa.",
+    "At YummyFit, we believe that eating well shouldn’t be a challenge!": "¡En YummyFit, creemos que comer bien no debería ser un desafío!",
+    "it should be a pleasure.": "debería ser un placer.",
+    "That’s why we’ve created a platform that brings together smart technology, expert-backed nutrition advice, and thousands of healthy, mouth-watering recipes, all in one place.": "Por eso hemos creado una plataforma que reúne tecnología inteligente, consejos nutricionales respaldados por expertos y miles de recetas saludables y deliciosas, todo en un solo lugar.",
+    "Get Started": "Empezar",
+    "Learn More": "Aprender Más",
+    "Browse By Food Type": "Buscar por Tipo de Comida",
+    "The newest Recipes": "Las Recetas más Nuevas",
+    "If you are looking for a specific type of food, you can browse by food type.": "Si buscas un tipo de comida específico, puedes navegar por tipo de comida.",
+    "We have a wide variety of food types to choose from.": "Tenemos una amplia variedad de tipos de comida para elegir.",
+    "Discover the latest and greatest recipes to tantalize your taste buds.": "Descubre las últimas y mejores recetas para deleitar tu paladar.",
+    "Complete Your Profile": "Completa tu Perfil",
+    "To get the best experience, please complete your account setup.": "Para obtener la mejor experiencia, completa la configuración de tu cuenta.",
+    "Go to Account Setup": "Ir a Configuración de Cuenta",
+    "Close": "Cerrar"
+  },
+  "recipe": {
+    "title_food": "Encuentra la receta de comida perfecta para ti",
+    "cook_time_short": "min",
+    "cook_time_full": "Tiempo de cocción",
+    "calories_short": "cal",
+    "calories_full": "Calorías",
+    "carbs_short": "g",
+    "carbs_full": "Carbohidratos Netos",
+    "protein_short": "g",
+    "protein_full": "Proteína",
+    "fat_short": "g",
+    "fat_full": "Grasa",
+    "loading": "Cargando..."
+  },
+  "about": {
+    "brand": "YummyFit",
+    "slogan_line1": "para vivir en",
+    "slogan_line2": "el futuro",
+    "description": "En YummyFit, creemos que comer sano debería ser fácil y agradable. Por eso hemos construido una plataforma que combina tecnología inteligente con miles de recetas deliciosas y nutritivas, todo convenientemente en un solo lugar.",
+    "offer_title": "Lo que Ofrecemos",
+    "offer1": {
+      "title": "Planificación de Comidas Personalizada:",
+      "desc": " Planes de comidas a medida basados en tus objetivos de salud, preferencias dietéticas, alergias y nivel de actividad física."
+    },
+    "offer2": {
+      "title": "Búsqueda Inteligente de Recetas:",
+      "desc": " Descubre recetas saludables utilizando ingredientes que ya tienes."
+    },
+    "offer3": {
+      "title": "Seguimiento Nutricional:",
+      "desc": " Lleva un registro de calorías, macronutrientes y objetivos diarios con nuestro panel fácil de usar."
+    },
+    "register_button": "Registrarse Ahora"
+  },
+  "contact": {
+    "title": "¿Tienes Preguntas sobre tu Viaje? ¡Contáctanos!",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "success": "¡Gracias por contactarnos! Te responderemos pronto.",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
+    "footer": "¿Necesitas ayuda con tu viaje dietético? ¿Quieres saber más sobre recetas saludables o cómo seguir tu progreso? Envíanos tus preguntas, sugerencias o comentarios. ¡Estamos emocionados de escucharte!",
+    "cta": "¡Comienza tu estilo de vida saludable hoy mismo — regístrate ahora!"
+  },
+  "profile": {
+    "title": "Perfil",
+    "view_favorites": "Ver Favoritos",
+    "go_home": "Ir a Inicio",
+    "edit_profile": "Editar Perfil",
+    "logout": "Cerrar Sesión",
+    "admin_panel": "Ir al Panel de Administración",
+    "profile_details": "Detalles del Perfil",
+    "full_name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "age": "Edad",
+    "gender": "Género",
+    "weight": "Peso",
+    "height": "Altura",
+    "target_weight": "Peso Objetivo",
+    "target_weight_change": "Cambio de Peso Objetivo",
+    "daily_calories": "Calorías Diarias",
+    "activity_level": "Nivel de Actividad",
+    "food_preferences": "Preferencias Alimentarias",
+    "allergies": "Alergias",
+    "cuisine_preferences": "Preferencias Culinarias",
+    "diseases": "Enfermedades",
+    "your_favorites": "Tus Favoritos",
+    "remove": "Eliminar",
+    "close": "Cerrar",
+    "not_available": "N/D",
+    "role": "Rol",
+    "gender_options": {
+      "male": "Hombre",
+      "female": "Mujer",
+      "other": "Otro"
+    },
+    "activity_levels": {
+      "sedentary": "Sedentario",
+      "light": "Ligero",
+      "moderate": "Moderado",
+      "active": "Activo",
+      "very_active": "Muy Activo"
+    },
+    "kg": "kg",
+    "cm": "cm",
+    "kcal": "kcal",
+    "week": "Semana",
+    "years": "años"
+  },
+  "meal_plan": {
+    "title": "Plan de Comidas",
+    "generate_plan": "Generar Plan de Comidas",
+    "breakfast": "Desayuno",
+    "lunch": "Almuerzo",
+    "dinner": "Cena",
+    "snacks": "Aperitivos",
+    "calories": "Calorías",
+    "carbs": "Carbohidratos",
+    "protein": "Proteína",
+    "fat": "Grasa"
+  },
+  "edit_profile": {
+    "title": "Editar Perfil",
+    "update_message": "Actualiza la información de tu perfil",
+    "update_success": "Perfil actualizado con éxito",
+    "update_failed": "Error al actualizar el perfil",
+    "first_name": "Nombre",
+    "last_name": "Apellido",
+    "age": "Edad",
+    "height": "Altura (cm)",
+    "weight": "Peso (kg)",
+    "target_weight": "Peso Objetivo (kg)",
+    "daily_calories": "Calorías Diarias (kcal)",
+    "gender": "Género",
+    "gender_options": {
+      "male": "Hombre",
+      "female": "Mujer",
+      "other": "Otro"
+    },
+    "target_weight_change": "Cambio de Peso Objetivo",
+    "weight_change_options": {
+      "500g_week": "0.5 kg/semana",
+      "1kg_week": "1 kg/semana"
+    },
+    "activity_level": "Nivel de Actividad",
+    "activity_levels": {
+      "sedentary": "Sedentario",
+      "lightly active": "Ligeramente Activo",
+      "moderately active": "Moderadamente Activo",
+      "very active": "Muy Activo",
+      "super active": "Súper Activo"
+    },
+    "food_preference": "Preferencia Alimentaria",
+    "select_preference": "Selecciona una preferencia",
+    "food_preference_options": {
+      "vegetarian": "Vegetariano",
+      "vegan": "Vegano",
+      "paleo": "Paleo",
+      "keto": "Keto",
+      "gluten-free": "Sin Gluten"
+    },
+    "allergies": "Alergias",
+    "cuisine_preferences": "Preferencias Culinarias",
+    "diseases": "Enfermedades",
+    "comma_separated": "separado por comas",
+    "new_password": "Nueva Contraseña (opcional)",
+    "password_placeholder": "Deja en blanco para mantener la contraseña actual",
+    "profile_image": "Imagen de Perfil",
+    "save_changes": "Guardar Cambios",
+    "cancel": "Cancelar"
+  },
+  "search": {
+    "placeholder_title": "Buscar por título...",
+    "reset_show_all": "Todos",
+    "all_dish_types": "Todos los Tipos de Plato",
+    "all_cuisines": "Todas las Cocinas",
+    "search_button": "Buscar",
+    "cuisines": {
+      "italian": "Italiana",
+      "mexican": "Mexicana",
+      "indian": "India",
+      "chinese": "China",
+      "french": "Francesa",
+      "japanese": "Japonesa",
+      "african": "Africana",
+      "american": "Americana"
+    }
+  },
+  "account_setup": {
+    "title": "Configura tu cuenta",
+    "welcome": "Bienvenido a",
+    "welcome_message_rest": "! Estamos emocionados de ayudarte en tu viaje hacia un estilo de vida más saludable.",
+    "get_started": "¡Empecemos a configurar tu cuenta!",
+    "personalization_message": "Esto nos ayudará a personalizar tu experiencia y proporcionarte recomendaciones de alimentos personalizadas.",
+    "get_started_button": "Empezar",
+    "back_to_home": "Volver a Inicio"
+  },
+  "brand_name": "YummyFit",
+  "food_preferences": {
+    "title": "¿Qué tipo de dieta prefieres?",
+    "excludes": "Excluye",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "update_error": "Se produjo un error al actualizar los datos del usuario.",
+    "diets": {
+      "anything": {
+        "label": "Cualquiera",
+        "excludes": "Nada"
+      },
+      "vegetarian": {
+        "label": "Vegetariana",
+        "excludes": "Carne, aves, pescado, mariscos"
+      },
+      "vegan": {
+        "label": "Vegana",
+        "excludes": "Todos los productos animales (carne, pescado, lácteos, huevos, miel)"
+      },
+      "paleo": {
+        "label": "Paleo",
+        "excludes": "Lácteos, cereales, legumbres, almidones refinados, soja"
+      },
+      "keto": {
+        "label": "Keto",
+        "excludes": "Cereales con alto contenido de carbohidratos, azúcares, almidones, la mayoría de las frutas"
+      },
+      "gluten_free": {
+        "label": "Sin Gluten",
+        "excludes": "Cereales que contienen gluten (trigo, cebada, centeno, espelta)"
+      }
+    }
+  },
+  "food_avoid": {
+    "allergies_question": "¿Tienes alguna alergia o intolerancia alimentaria?",
+    "medical_conditions_question": "¿Tienes alguna condición médica o enfermedad?",
+    "cuisine_preference_question": "¿Prefieres alguna cocina específica?",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "update_error": "Se produjo un error al actualizar tus preferencias. Inténtalo de nuevo.",
+    "allergies": {
+      "peanuts": "Cacahuetes",
+      "dairy": "Lácteos",
+      "soy": "Soja",
+      "eggs": "Huevos",
+      "shellfish": "Mariscos",
+      "fish": "Pescado",
+      "tree_nuts": "Frutos Secos"
+    },
+    "diseases": {
+      "diabetes": "Diabetes",
+      "kidney_disease": "Enfermedad renal",
+      "liver_disease": "Enfermedad hepática",
+      "high_cholesterol": "Colesterol alto",
+      "high_blood_pressure": "Presión arterial alta",
+      "hypothyroidism": "Hipotiroidismo",
+      "hyperthyroidism": "Hipertiroidismo"
+    },
+    "cuisine_preferences": {
+      "italian": "Italiana",
+      "chinese": "China",
+      "indian": "India",
+      "mexican": "Mexicana",
+      "japanese": "Japonesa",
+      "french": "Francesa",
+      "greek": "Griega",
+      "thai": "Tailandesa",
+      "spanish": "Española",
+      "korean": "Coreana",
+      "mediterranean": "Mediterránea",
+      "american": "Americana",
+      "vietnamese": "Vietnamita",
+      "middle_eastern": "Oriente Medio"
+    }
+  },
+  "user_info": {
+    "title": "Cuéntanos sobre ti",
+    "description": "Esta información nos permite estimar tus requerimientos nutricionales diarios.",
+    "lets_go": "¡Vamos!",
+    "update_error": "Se produjo un error al actualizar tus datos de usuario. Inténtalo de nuevo."
+  },
+  "common": {
+    "save_changes": "Guardar Cambios",
+    "cancel": "Cancelar",
+    "update": "Actualizar",
+    "delete": "Eliminar",
+    "add": "Añadir",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "loading": "Cargando...",
+    "required_field": "Este campo es obligatorio."
+  }
+}

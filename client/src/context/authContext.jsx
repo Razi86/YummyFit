@@ -12,6 +12,12 @@ function AuthContextProvider({ children }) {
   const [error, setError] = useState(null);
   const [successLoggedIn, setSuccessLoggedIn] = useState(false);
   const [successRegistered, setSuccessRegistered] = useState(false);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const handleClosePopup = () => {
+    setIsPopupOpen(false);
+    localStorage.setItem("popupClosed", "true");
+  };
 
   const handleChange = (e) => {
     setUser(prevUser => ({
@@ -31,7 +37,6 @@ function AuthContextProvider({ children }) {
         password: user.password,
         image: user.image,
       });
-      setUser(res.data.user);
       setError(null);
       navigate("/login");
     } catch (error) {
@@ -53,6 +58,7 @@ function AuthContextProvider({ children }) {
         }
       );
       setUser(res.data.user);
+      setSuccessLoggedIn(true);
       setError(null);
       navigate("/");
     } catch (error) {
@@ -68,7 +74,9 @@ function AuthContextProvider({ children }) {
         { withCredentials: true }
       );
       setUser(null);
+      setSuccessLoggedIn(false);
       setError(null);
+      localStorage.removeItem("popupClosed");
       navigate("/login");
     } catch (error) {
       setError("Logout failed. Please try again.");
@@ -77,25 +85,24 @@ function AuthContextProvider({ children }) {
 
 useEffect(() => {
   const checkSession = async () => {
-    try {
-      const res = await axios.get(`${ORIGIN_URL}/users/check-session`, {
-        withCredentials: true,
-      });
-
-      console.log("Session check response:", res.data);
-      
-      if (res.data.authenticated && res.data.user) {
-        setUser(res.data.user);
-      } else {
+      try {
+        const res = await axios.get(`${ORIGIN_URL}/users/check-session`, {
+          withCredentials: true,
+        });
+        if (res.data.authenticated) {
+          setUser(res.data.user);
+          setSuccessLoggedIn(true);
+        } else {
+          setUser(null);
+          setSuccessLoggedIn(false);
+        }
+        setSessionLoading(false);
+      } catch (error) {
+        console.error("Session check error:", error);
         setUser(null);
+        setSessionLoading(false);
       }
-      setSessionLoading(false);
-    } catch (error) {
-      console.error("Session check error:", error);
-      setUser(null);
-      setSessionLoading(false);
-    }
-  };
+    };
   checkSession();
 }, []);
 
@@ -116,7 +123,10 @@ useEffect(() => {
           setSuccessLoggedIn,
           successRegistered,
           setSuccessRegistered,
-          navigate
+          navigate,
+          handleClosePopup,
+          isPopupOpen,
+          setIsPopupOpen,
         }}
       >
         {children}
