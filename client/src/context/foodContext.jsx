@@ -142,7 +142,6 @@ const fetchFavorites = async () => {
 
       return matchesTitle && matchesType && matchesCuisine;
     });
-    console.log(searchedFoodList);
     setSearchedFood(searchedFoodList);
   };
 
@@ -194,7 +193,7 @@ const fetchFavorites = async () => {
       const res = await axios.get(`${ORIGIN_URL}/recipes`);
       setFood(res.data.recipes);
       localStorage.removeItem("foodData");
-      localStorage.setItem("foodData", JSON.stringify(res.data));
+      localStorage.setItem("foodData", JSON.stringify(res.data.recipes));
     } catch (error) {
       setError(error.message);
     }

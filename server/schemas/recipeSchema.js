@@ -69,13 +69,11 @@ const recipeSchema = new Schema(
       min: 0,
     },
     prep_time: {
-      type: Number,
-      // required: true,
+      type: Number, 
       trim: true,
     },
     cook_time: {
       type: Number,
-      // required: true,
       trim: true,
     },
     food_type: {
@@ -90,30 +88,6 @@ const recipeSchema = new Schema(
       type: [String],
       default: [],
     },
-    // comments: [
-    //   {
-    //     userId: {
-    //       type: Schema.Types.ObjectId,
-    //       ref: "User",
-    //       required: false,
-    //     },
-    //     text: {
-    //       type: String,
-    //       required: false,
-    //       trim: true,
-    //     },
-    //     date: {
-    //       type: Date,
-    //       default: Date.now,
-    //     },
-    //   },
-    // ],
-    // rating: {
-    //   type: Number,
-    //   default: 0,
-    //   min: 0,
-    //   max: 5,
-    // },
   },
   { timestamps: true }
 );

@@ -17,9 +17,9 @@ function Footer() {
         className="absolute w-[75%] h-full object-fit top-0"
       />
       <div className="content w-full min-h-[13rem] flex justify-center items-center relative z-2 gap-5">
-        <div className="logo w-full min-h-[13rem] flex flex-1/4 justify-start items-start">
+        <div className="logo w-full min-h-[13rem] flex flex-1/4 justify-start items-end -mb-[15px]">
           <figure>
-            <img src={logo} alt={t("footer.logo_alt")} className="w-30" />
+            <img src={logo} alt={t("footer.logo_alt")} className="w-20" />
           </figure>
         </div>
         <div className="heading-extra flex flex-2/4 flex-col justify-center items-center gap-4">

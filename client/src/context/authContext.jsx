@@ -58,6 +58,7 @@ function AuthContextProvider({ children }) {
         }
       );
       setUser(res.data.user);
+      setSuccessLoggedIn(true);
       setError(null);
       navigate("/");
     } catch (error) {
@@ -73,6 +74,7 @@ function AuthContextProvider({ children }) {
         { withCredentials: true }
       );
       setUser(null);
+      setSuccessLoggedIn(false);
       setError(null);
       localStorage.removeItem("popupClosed");
       navigate("/login");
@@ -89,8 +91,10 @@ useEffect(() => {
         });
         if (res.data.authenticated) {
           setUser(res.data.user);
+          setSuccessLoggedIn(true);
         } else {
           setUser(null);
+          setSuccessLoggedIn(false);
         }
         setSessionLoading(false);
       } catch (error) {
